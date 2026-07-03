@@ -1,0 +1,19 @@
+rule,condition,avg_7d_return,win_rate,samples,extra
+RULE: Venus Retrograde = Caution (Bearish bias),When Venus is retrograde,-0.71%,45%,380,-2.66%
+RULE: Venus-Saturn Conjunction (<5 deg) = Strong Bullish,Venus and Saturn within 5 degrees,+1.84%,63%,180,
+RULE: Venus-Saturn 32-67 deg = Strongest Bullish Returns,Venus-Saturn separation between 32 and 67 degrees,+2.93%,57%,1094,
+RULE: Venus-Saturn 102-138 deg = High Win Rate Bullish,Venus-Saturn separation between 102 and 138 degrees (Trine zone),+2.40%,57%,1103,
+RULE: Sun-Rahu <15 deg (Eclipse Zone) = Bullish Opportunity,Sun within 15 degrees of Rahu (north lunar node),+2.84%,56%,462,Major moves: Bullish 9% vs Bearish 6%
+RULE: Waxing Crescent Moon = Bullish,Moon phase is Waxing Crescent (day 3-7 after New Moon),+2.22%,57%,345,
+Saturn in Virgo = Bearish Period,Saturn transiting Virgo (approx 2.5 years),-1.13%,55%,169,
+Saturn in Libra = Bullish Period,Saturn transiting Libra (approx 2.5 years),+4.21%,57%,1003,
+Saturn in Scorpio = Bullish Period,Saturn transiting Scorpio (approx 2.5 years),+1.81%,60%,944,
+Saturn in Sagittarius = Bullish Period,Saturn transiting Sagittarius (approx 2.5 years),+1.68%,53%,965,
+Saturn in Capricorn = Bullish Period,Saturn transiting Capricorn (approx 2.5 years),+1.52%,55%,1015,
+Saturn in Aquarius = Bullish Period,Saturn transiting Aquarius (approx 2.5 years),+0.88%,52%,876,
+Saturn in Pisces = Bearish Period,Saturn transiting Pisces (approx 2.5 years),-0.34%,49%,461,
+Jupiter-Saturn Jup-Sat Conjunction = Bullish,Jupiter-Saturn angle between 0-10 degrees,+2.54%,57%,2774,
+Moon in Ashwini = Bearish Nakshatra,Moon transiting Ashwini nakshatra (~13 hours),+1.19%,47%,201,
+Moon in Hasta = Bullish Nakshatra,Moon transiting Hasta nakshatra (~13 hours),+1.77%,59%,207,
+Moon in Chitra = Bullish Nakshatra,Moon transiting Chitra nakshatra (~13 hours),+2.19%,58%,201,
+Moon in Revati = Bearish Nakshatra,Moon transiting Revati nakshatra (~13 hours),+0.95%,47%,201,

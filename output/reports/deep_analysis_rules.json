@@ -1,0 +1,131 @@
+[
+  {
+    "rule": "RULE: Venus Retrograde = Caution (Bearish bias)",
+    "condition": "When Venus is retrograde",
+    "avg_7d_return": "-0.71%",
+    "normal_return": "+1.94%",
+    "diff": "-2.66%",
+    "win_rate": "45%",
+    "samples": 380
+  },
+  {
+    "rule": "RULE: Venus-Saturn Conjunction (<5 deg) = Strong Bullish",
+    "condition": "Venus and Saturn within 5 degrees",
+    "avg_7d_return": "+1.84%",
+    "win_rate": "63%",
+    "samples": 180
+  },
+  {
+    "rule": "RULE: Venus-Saturn 32-67 deg = Strongest Bullish Returns",
+    "condition": "Venus-Saturn separation between 32 and 67 degrees",
+    "avg_7d_return": "+2.93%",
+    "win_rate": "57%",
+    "samples": 1094
+  },
+  {
+    "rule": "RULE: Venus-Saturn 102-138 deg = High Win Rate Bullish",
+    "condition": "Venus-Saturn separation between 102 and 138 degrees (Trine zone)",
+    "avg_7d_return": "+2.40%",
+    "win_rate": "57%",
+    "samples": 1103
+  },
+  {
+    "rule": "RULE: Sun-Rahu <15 deg (Eclipse Zone) = Bullish Opportunity",
+    "condition": "Sun within 15 degrees of Rahu (north lunar node)",
+    "avg_7d_return": "+2.84%",
+    "win_rate": "56%",
+    "bull_vs_bear": "Major moves: Bullish 9% vs Bearish 6%",
+    "samples": 462
+  },
+  {
+    "rule": "RULE: Waxing Crescent Moon = Bullish",
+    "condition": "Moon phase is Waxing Crescent (day 3-7 after New Moon)",
+    "avg_7d_return": "+2.22%",
+    "win_rate": "57%",
+    "samples": 345
+  },
+  {
+    "rule": "Saturn in Virgo = Bearish Period",
+    "condition": "Saturn transiting Virgo (approx 2.5 years)",
+    "avg_7d_return": "-1.13%",
+    "win_rate": "55%",
+    "samples": 169
+  },
+  {
+    "rule": "Saturn in Libra = Bullish Period",
+    "condition": "Saturn transiting Libra (approx 2.5 years)",
+    "avg_7d_return": "+4.21%",
+    "win_rate": "57%",
+    "samples": 1003
+  },
+  {
+    "rule": "Saturn in Scorpio = Bullish Period",
+    "condition": "Saturn transiting Scorpio (approx 2.5 years)",
+    "avg_7d_return": "+1.81%",
+    "win_rate": "60%",
+    "samples": 944
+  },
+  {
+    "rule": "Saturn in Sagittarius = Bullish Period",
+    "condition": "Saturn transiting Sagittarius (approx 2.5 years)",
+    "avg_7d_return": "+1.68%",
+    "win_rate": "53%",
+    "samples": 965
+  },
+  {
+    "rule": "Saturn in Capricorn = Bullish Period",
+    "condition": "Saturn transiting Capricorn (approx 2.5 years)",
+    "avg_7d_return": "+1.52%",
+    "win_rate": "55%",
+    "samples": 1015
+  },
+  {
+    "rule": "Saturn in Aquarius = Bullish Period",
+    "condition": "Saturn transiting Aquarius (approx 2.5 years)",
+    "avg_7d_return": "+0.88%",
+    "win_rate": "52%",
+    "samples": 876
+  },
+  {
+    "rule": "Saturn in Pisces = Bearish Period",
+    "condition": "Saturn transiting Pisces (approx 2.5 years)",
+    "avg_7d_return": "-0.34%",
+    "win_rate": "49%",
+    "samples": 461
+  },
+  {
+    "rule": "Jupiter-Saturn Jup-Sat Conjunction = Bullish",
+    "condition": "Jupiter-Saturn angle between 0-10 degrees",
+    "avg_7d_return": "+2.54%",
+    "win_rate": "57%",
+    "samples": 2774
+  },
+  {
+    "rule": "Moon in Ashwini = Bearish Nakshatra",
+    "condition": "Moon transiting Ashwini nakshatra (~13 hours)",
+    "avg_7d_return": "+1.19%",
+    "win_rate": "47%",
+    "samples": 201
+  },
+  {
+    "rule": "Moon in Hasta = Bullish Nakshatra",
+    "condition": "Moon transiting Hasta nakshatra (~13 hours)",
+    "avg_7d_return": "+1.77%",
+    "win_rate": "59%",
+    "samples": 207
+  },
+  {
+    "rule": "Moon in Chitra = Bullish Nakshatra",
+    "condition": "Moon transiting Chitra nakshatra (~13 hours)",
+    "avg_7d_return": "+2.19%",
+    "win_rate": "58%",
+    "samples": 201
+  },
+  {
+    "rule": "Moon in Revati = Bearish Nakshatra",
+    "condition": "Moon transiting Revati nakshatra (~13 hours)",
+    "avg_7d_return": "+0.95%",
+    "win_rate": "47%",
+    "samples": 201
+  }
+]
