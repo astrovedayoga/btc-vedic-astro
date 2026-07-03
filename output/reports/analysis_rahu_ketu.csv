@@ -1,0 +1,4 @@
+test,near_mean_pct,far_mean_pct,diff_pct,near_n,near_win_rate,p_value
+Sun_Rahu_<15°_vs_other,2.838,1.655,1.184,462,55.6,0.058813
+near_solar_eclipse_volatility,3.633,3.418,0.215,462,-,0.038465
+near_lunar_eclipse_volatility,3.45,3.435,0.015,451,-,0.902904

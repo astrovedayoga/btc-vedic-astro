@@ -1,0 +1,202 @@
+[
+  {
+    "conditions": "jupiter_sign_lon <= 11.9575 AND saturn_sign_lon <= 27.5840 AND sun_sign_lon <= 18.0975 AND saturn_sign_lon <= 9.5155 AND aspect_square <= 27.0000",
+    "prediction": "Bullish",
+    "samples": 145,
+    "purity": 0.507,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon <= 11.9575 AND saturn_sign_lon <= 27.5840 AND sun_sign_lon <= 18.0975 AND saturn_sign_lon <= 9.5155 AND aspect_square > 27.0000",
+    "prediction": "Bullish",
+    "samples": 35,
+    "purity": 0.912,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon <= 11.9575 AND saturn_sign_lon <= 27.5840 AND sun_sign_lon <= 18.0975 AND saturn_sign_lon > 9.5155 AND sma_ratio_50_200 <= 0.7951",
+    "prediction": "Bullish",
+    "samples": 32,
+    "purity": 0.662,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon <= 11.9575 AND saturn_sign_lon <= 27.5840 AND sun_sign_lon <= 18.0975 AND saturn_sign_lon > 9.5155 AND sma_ratio_50_200 > 0.7951",
+    "prediction": "Bearish",
+    "samples": 295,
+    "purity": 0.671,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon <= 11.9575 AND saturn_sign_lon <= 27.5840 AND sun_sign_lon > 18.0975 AND jupiter_sign_lon <= 0.7805",
+    "prediction": "Bullish",
+    "samples": 33,
+    "purity": 0.558,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon <= 11.9575 AND saturn_sign_lon <= 27.5840 AND sun_sign_lon > 18.0975 AND jupiter_sign_lon > 0.7805 AND volatility_14d <= 0.0455",
+    "prediction": "Bearish",
+    "samples": 249,
+    "purity": 0.845,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon <= 11.9575 AND saturn_sign_lon <= 27.5840 AND sun_sign_lon > 18.0975 AND jupiter_sign_lon > 0.7805 AND volatility_14d > 0.0455",
+    "prediction": "Bearish",
+    "samples": 39,
+    "purity": 0.599,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon <= 11.9575 AND saturn_sign_lon > 27.5840 AND sun_sign_lon <= 13.7690",
+    "prediction": "Bullish",
+    "samples": 49,
+    "purity": 0.501,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon <= 11.9575 AND saturn_sign_lon > 27.5840 AND sun_sign_lon > 13.7690",
+    "prediction": "Bullish",
+    "samples": 50,
+    "purity": 0.97,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon > 11.9575 AND sun_rashi_num_cos <= -0.9330 AND mars_sign_lon <= 25.1315 AND vs_sep_cos <= 0.3816",
+    "prediction": "Bullish",
+    "samples": 63,
+    "purity": 0.952,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon > 11.9575 AND sun_rashi_num_cos <= -0.9330 AND mars_sign_lon <= 25.1315 AND vs_sep_cos > 0.3816 AND mars_sign_lon <= 8.6070",
+    "prediction": "Bearish",
+    "samples": 39,
+    "purity": 0.544,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon > 11.9575 AND sun_rashi_num_cos <= -0.9330 AND mars_sign_lon <= 25.1315 AND vs_sep_cos > 0.3816 AND mars_sign_lon > 8.6070",
+    "prediction": "Bullish",
+    "samples": 75,
+    "purity": 0.786,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon > 11.9575 AND sun_rashi_num_cos <= -0.9330 AND mars_sign_lon > 25.1315",
+    "prediction": "Bearish",
+    "samples": 32,
+    "purity": 0.622,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon > 11.9575 AND sun_rashi_num_cos > -0.9330 AND jupiter_sign_lon <= 13.6470 AND saturn_sign_lon <= 10.9325",
+    "prediction": "Bearish",
+    "samples": 57,
+    "purity": 0.58,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon > 11.9575 AND sun_rashi_num_cos > -0.9330 AND jupiter_sign_lon <= 13.6470 AND saturn_sign_lon > 10.9325 AND sma_ratio_50_200 <= 1.0714",
+    "prediction": "Bullish",
+    "samples": 31,
+    "purity": 0.588,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon > 11.9575 AND sun_rashi_num_cos > -0.9330 AND jupiter_sign_lon <= 13.6470 AND saturn_sign_lon > 10.9325 AND sma_ratio_50_200 > 1.0714",
+    "prediction": "Bullish",
+    "samples": 76,
+    "purity": 0.93,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon > 11.9575 AND sun_rashi_num_cos > -0.9330 AND jupiter_sign_lon > 13.6470 AND moon_nakshatra_num_cos <= 0.2849 AND mars_sign_lon <= 3.8505",
+    "prediction": "Bearish",
+    "samples": 222,
+    "purity": 0.604,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon > 11.9575 AND sun_rashi_num_cos > -0.9330 AND jupiter_sign_lon > 13.6470 AND moon_nakshatra_num_cos <= 0.2849 AND mars_sign_lon > 3.8505",
+    "prediction": "Bullish",
+    "samples": 1188,
+    "purity": 0.568,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon > 11.9575 AND sun_rashi_num_cos > -0.9330 AND jupiter_sign_lon > 13.6470 AND moon_nakshatra_num_cos > 0.2849 AND saturn_sign_lon <= 3.7520",
+    "prediction": "Bullish",
+    "samples": 138,
+    "purity": 0.608,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  },
+  {
+    "conditions": "jupiter_sign_lon > 11.9575 AND sun_rashi_num_cos > -0.9330 AND jupiter_sign_lon > 13.6470 AND moon_nakshatra_num_cos > 0.2849 AND saturn_sign_lon > 3.7520",
+    "prediction": "Bearish",
+    "samples": 815,
+    "purity": 0.605,
+    "class_counts": {
+      "Bearish": 0,
+      "Bullish": 0
+    }
+  }
+]

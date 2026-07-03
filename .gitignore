@@ -1,0 +1,30 @@
+# Environment
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+
+# Data (large files - regenerate from scripts)
+data/raw/*.csv
+data/raw/*.parquet
+data/raw/*.pkl
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/*.pkl
+
+# Output charts (large binary)
+output/charts/*.png
+output/charts/*.html
+output/models/*.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/

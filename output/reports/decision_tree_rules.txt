@@ -1,0 +1,58 @@
+|--- jupiter_sign_lon <= 11.96
+|   |--- saturn_sign_lon <= 27.58
+|   |   |--- sun_sign_lon <= 18.10
+|   |   |   |--- saturn_sign_lon <= 9.52
+|   |   |   |   |--- aspect_square <= 27.00
+|   |   |   |   |   |--- weights: [71.62, 73.68] class: 1
+|   |   |   |   |--- aspect_square >  27.00
+|   |   |   |   |   |--- weights: [3.49, 36.26] class: 1
+|   |   |   |--- saturn_sign_lon >  9.52
+|   |   |   |   |--- sma_ratio_50_200 <= 0.80
+|   |   |   |   |   |--- weights: [11.35, 22.22] class: 1
+|   |   |   |   |--- sma_ratio_50_200 >  0.80
+|   |   |   |   |   |--- weights: [188.65, 92.39] class: 0
+|   |   |--- sun_sign_lon >  18.10
+|   |   |   |--- jupiter_sign_lon <= 0.78
+|   |   |   |   |--- weights: [14.85, 18.71] class: 1
+|   |   |   |--- jupiter_sign_lon >  0.78
+|   |   |   |   |--- volatility_14d <= 0.05
+|   |   |   |   |   |--- weights: [191.27, 35.09] class: 0
+|   |   |   |   |--- volatility_14d >  0.05
+|   |   |   |   |   |--- weights: [22.71, 15.20] class: 0
+|   |--- saturn_sign_lon >  27.58
+|   |   |--- sun_sign_lon <= 13.77
+|   |   |   |--- weights: [24.45, 24.56] class: 1
+|   |   |--- sun_sign_lon >  13.77
+|   |   |   |--- weights: [1.75, 56.14] class: 1
+|--- jupiter_sign_lon >  11.96
+|   |--- sun_rashi_num_cos <= -0.93
+|   |   |--- mars_sign_lon <= 25.13
+|   |   |   |--- vs_sep_cos <= 0.38
+|   |   |   |   |--- weights: [3.49, 69.00] class: 1
+|   |   |   |--- vs_sep_cos >  0.38
+|   |   |   |   |--- mars_sign_lon <= 8.61
+|   |   |   |   |   |--- weights: [20.96, 17.54] class: 0
+|   |   |   |   |--- mars_sign_lon >  8.61
+|   |   |   |   |   |--- weights: [17.47, 64.32] class: 1
+|   |   |--- mars_sign_lon >  25.13
+|   |   |   |--- weights: [19.21, 11.70] class: 0
+|   |--- sun_rashi_num_cos >  -0.93
+|   |   |--- jupiter_sign_lon <= 13.65
+|   |   |   |--- saturn_sign_lon <= 10.93
+|   |   |   |   |--- weights: [32.32, 23.39] class: 0
+|   |   |   |--- saturn_sign_lon >  10.93
+|   |   |   |   |--- sma_ratio_50_200 <= 1.07
+|   |   |   |   |   |--- weights: [13.10, 18.71] class: 1
+|   |   |   |   |--- sma_ratio_50_200 >  1.07
+|   |   |   |   |   |--- weights: [6.11, 80.70] class: 1
+|   |   |--- jupiter_sign_lon >  13.65
+|   |   |   |--- moon_nakshatra_num_cos <= 0.28
+|   |   |   |   |--- mars_sign_lon <= 3.85
+|   |   |   |   |   |--- weights: [130.14, 85.38] class: 0
+|   |   |   |   |--- mars_sign_lon >  3.85
+|   |   |   |   |   |--- weights: [524.03, 687.69] class: 1
+|   |   |   |--- moon_nakshatra_num_cos >  0.28
+|   |   |   |   |--- saturn_sign_lon <= 3.75
+|   |   |   |   |   |--- weights: [55.90, 86.55] class: 1
+|   |   |   |   |--- saturn_sign_lon >  3.75
+|   |   |   |   |   |--- weights: [478.62, 312.27] class: 0

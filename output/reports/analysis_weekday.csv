@@ -1,0 +1,8 @@
+weekday,count,avg_return_7d_pct,win_rate_pct,p_value,significant
+Monday,775,1.749,54.2,3.2e-05,True
+Tuesday,775,1.799,53.5,4.2e-05,True
+Wednesday,775,1.753,54.2,2.3e-05,True
+Thursday,775,1.728,55.9,2e-05,True
+Friday,776,1.731,55.0,3.5e-05,True
+Saturday,775,1.784,55.4,3.8e-05,True
+Sunday,775,1.743,55.9,2.7e-05,True

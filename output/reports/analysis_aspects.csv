@@ -1,0 +1,7 @@
+aspect,high_mean_pct,low_mean_pct,diff_pct,p_value,significant
+sextile,2.14,1.509,0.632,0.058117,False
+quincunx,2.372,1.586,0.786,0.069449,False
+square,1.988,1.564,0.424,0.17414,False
+conjunction,1.956,1.575,0.381,0.231256,False
+trine,1.901,1.647,0.254,0.432321,False
+opposition,1.884,1.692,0.192,0.559049,False

@@ -1,0 +1,3 @@
+moon_phase,count,avg_return_7d_pct,win_rate_pct,t_statistic,p_value
+New_Moon,5081,1.724,54.8,10.556,0.0
+Waxing_Crescent,345,2.224,56.5,3.5358,0.000462

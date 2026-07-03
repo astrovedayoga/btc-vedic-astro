@@ -1,0 +1,7 @@
+test,stat,p_value,significant,count,avg_return_pct,win_rate_pct
+pearson_correlation,0.0155,0.252149,False,,,
+vs_aspect_conjunction,,0.003761,True,180.0,1.84,63.3
+vs_aspect_square,,0.007171,True,625.0,1.192,54.7
+vs_aspect_trine,,0.0,True,577.0,2.032,56.5
+vs_aspect_opposition,,0.0113,False,530.0,1.389,49.2
+vs_aspect_other,,0.0,True,2115.0,1.519,54.4
